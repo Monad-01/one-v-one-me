@@ -62,6 +62,7 @@ body {
 .paper img {
   height: 20rem;
   width: 30rem;
+  background-color: white;
 }
 
 .scissors {
