@@ -8,15 +8,29 @@ function Roshambo() {
     <div class="game-container">
       <div class="rock">
         <h1>rock</h1>
-        <img src={rockImage} />
+        <img
+          src={rockImage}
+          onClick={() => {
+            console.log("Rock was clicked");
+          }}
+        />
       </div>
       <div class="paper">
         <h1>paper</h1>
-        <img />
+        <img
+          onClick={() => {
+            console.log("Paper was clicked");
+          }}
+        />
       </div>
       <div class="scissors">
         <h1>scissors</h1>
-        <img src={scissorsImage} />
+        <img
+          src={scissorsImage}
+          onClick={() => {
+            console.log("Scissors was clicked");
+          }}
+        />
       </div>
     </div>
   );
