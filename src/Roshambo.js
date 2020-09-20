@@ -1,9 +1,10 @@
 import React from "react";
+import rockImage from "./Images/temp-rock.webp";
 
 function Roshambo() {
   return (
     <div>
-      <h1 onClick={() => console.log("You clicked rock")}> Rock </h1>
+      <img class="ro" src={rockImage} />
       <h1> Paper </h1>
       <h1> Scissors </h1>
     </div>

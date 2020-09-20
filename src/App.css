@@ -1,3 +1,10 @@
+/* Colors to use:
+
+  #5F0A87
+
+  
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +32,6 @@ body {
 
   color: black;
   padding: 3rem;
-  background: rgb(135, 100, 218);
+  background: #a037d1;
   background-size: contain;
 }
