@@ -1,0 +1,77 @@
+/* Colors to use:
+
+  #5F0A87
+
+  
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  /*  
+    Removes the paddings and borders for elements that are
+    usually added on to the elements width and height
+    */
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto Slab;
+  font-weight: 400;
+  /* Fun fact, font-weight doesn't change h1 tags */
+
+  font-size: 3rem;
+  line-height: 1.7;
+  /* Determines the space between the lines of text */
+
+  color: black;
+  padding: 3rem;
+  background: #a037d1;
+  background-size: contain;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-areas: "rock paper scissors";
+}
+
+.rock {
+  grid-area: rock;
+  text-align: center;
+  align-items: center;
+}
+
+.rock img {
+  height: 20rem;
+  width: 30rem;
+}
+
+.paper {
+  grid-area: paper;
+  text-align: center;
+  align-items: center;
+}
+
+.paper img {
+  height: 20rem;
+  width: 30rem;
+  background-color: white;
+}
+
+.scissors {
+  grid-area: scissors;
+  text-align: center;
+  align-items: center;
+}
+
+.scissors img {
+  height: 20rem;
+  width: 30rem;
+}
